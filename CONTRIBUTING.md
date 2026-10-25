@@ -12,8 +12,9 @@ Before implementing a game:
 3. Record provenance, source completeness, permissions, language, CPU,
    terminal requirements, data files, and build dependencies.
 4. Recommend adopt and polish, adapt and modernize, port, or reimplement.
-5. Obtain maintainer agreement on the implementation and scope before
-   importing third-party code or beginning substantial implementation.
+5. Preserve licensed source candidates with provenance as authorized by the
+   maintainer. Agree on the selected implementation and scope before
+   substantial adaptation. Source intake alone does not finalize game editions.
 
 Preserve recognizable gameplay. Explain intentional rule changes and offer
 them as separate options when practical. Do not introduce rule changes as

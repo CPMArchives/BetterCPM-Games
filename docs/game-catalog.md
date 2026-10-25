@@ -6,6 +6,14 @@ remain proposals. No candidate has been built or play-tested for this project.
 Minimum TPA, peak runtime memory, stack use, executable size, and final CPU
 compatibility are unmeasured for every entry.
 
+Source intake update: unchanged candidate source is now tracked for
+[Robots](../games/robots/README.md), [Snake](../games/snake/README.md),
+[Hangman](../games/hangman/README.md), [Ladder](../games/ladder/README.md),
+[Cpmtris](../games/cpmtris/README.md), and
+[Minesweeper](../games/minesweeper/README.md). See the
+[intake report](source-intake.md) for pinned provenance, license distinctions,
+and missing runtime dependencies. Import does not finalize the release lineup.
+
 | Category | Candidate | Edition or rules to investigate | Source finding / next step |
 | --- | --- | --- | --- |
 | Strategy and board | Chess | Compare worthwhile historical engines | CP/M Sargon assembly inspected; restrictive notice remains. Resolve permissions and compare alternatives. |
@@ -20,15 +28,15 @@ compatibility are unmeasured for every entry.
 | Adventure and exploration | Wumpus | Compare classic 20-room game with later variants | Historical BASIC leads; select precise behavior and permitted source. |
 | Adventure and exploration | Star Trek | Compare Super Star Trek and Visual Star Trek | VTREKSRC.ARC explicitly listed as CP/M C source; contents and rights unverified. |
 | Adventure and exploration | Dungeon crawler | Compare Rogue and other worthwhile crawlers | Goodenough CP/M Rogue 1.7 located; source and rights unresolved. |
-| Arcade and action | Tetris | Select rotation, randomization, scoring, and speed behavior | Russell Marks's cpmtris: Z80 source, stated GPL v2, configurable terminal/speed. |
-| Arcade and action | Snake | Select movement, growth, collision, and speed rules | Brokstad/linker3000 CP/M Turbo Pascal lineage: source, stated GPL v2. |
-| Arcade and action | Robots | Compare classic BSD rules with CP/M variations | Garcia's C/MESCC implementation: source, stated GPL v2; limited teleport tickets. |
-| Arcade and action | Sokoban | Select good levels and undo policy | Marks's CP/M C port: source, data file, undo and temporary save. Code and level rights unresolved. |
-| Arcade and action | Ladder | Compare reconstruction with historical game | mecparts Turbo Pascal rewrite: GPL v3 repository; original LADCONF dependency and endgame fidelity need review. |
-| Word and logic | Hangman | Curate words and difficulty | sblendorio C implementation: repository GPL v2, XTerm routines, external word file. |
+| Arcade and action | Tetris | Select rotation, randomization, scoring, and speed behavior | Cpmtris source imported: original Z80 distribution, GPL v2-or-later, configurable terminal/speed. |
+| Arcade and action | Snake | Select movement, growth, collision, and speed rules | Turbo Pascal 1.2acn source imported, GPL v2-or-later. |
+| Arcade and action | Robots | Compare classic BSD rules with CP/M variations | C source and matching headers imported; game GPL v2-or-later, MESCC runtime GPL v3. |
+| Arcade and action | Sokoban | Select good levels and undo policy | Source inspected but not imported: readme.v2 reports copied PC screens; game-code grant unresolved. |
+| Arcade and action | Ladder | Compare reconstruction with historical game | Pascal source imported: source grant GPL v2-or-later, repository GPL v3 text. LADCONF.COM excluded. |
+| Word and logic | Hangman | Curate words and difficulty | C/XTerm source and sample words imported under repository GPL v2 license. |
 | Word and logic | Mastermind | Specify code length, alphabet, repeats, and feedback | No adoption-ready source verified. |
 | Word and logic | Boggle | Specify grid, dictionary, scoring, and timing | No adoption-ready source verified; dictionary licensing and storage need attention. |
-| Word and logic | Minesweeper | Select board presets and first-move policy | Find That Mine: C/MESCC, Z80, GPL notice; coordinate commands, terminal/character-set assumptions. |
+| Word and logic | Minesweeper | Select board presets and first-move policy | Find That Mine 2.1 C/KS/MESCC source imported; GPL v3 family, coordinate commands, CP437/color assumptions. |
 | Simulation and management | Hammurabi | Compare Ahl's game with richer historical management games | Historical BASIC and licensed-port leads; no chosen source. |
 | Simulation and management | Lunar Lander | Choose numerical simulation or real-time action | LANDER.ARC listed; Storer's original numerical game documented separately. |
 | Simulation and management | Trading game | Compare compelling trading and progression systems | STARSHIP.ARC listed as space trading with source; hardware assumptions and rights unverified. |

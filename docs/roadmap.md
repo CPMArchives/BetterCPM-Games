@@ -5,9 +5,11 @@
 - Separate repository and project documentation.
 - Original 24-entry catalog and preliminary implementation leads.
 - Compatibility, interface, provenance, build, and versioning conventions.
+- First source intake: Robots, Snake, Hangman, Ladder, Cpmtris, and Find That
+  Mine, preserved unchanged with file checksums and license notices.
 
-There are no game binaries, imported third-party sources, assigned game
-revisions, or completed compatibility qualifications yet.
+There are no game binaries, assigned BetterCP/M game revisions, or completed
+compatibility qualifications yet. Source intake does not finalize the lineup.
 
 ## Complete the assessment
 
@@ -15,7 +17,8 @@ revisions, or completed compatibility qualifications yet.
 2. Select precise rules and editions, especially Star Trek, Solitaire, Poker,
    Lunar Lander, the dungeon crawler, and the trading game.
 3. Inspect promising CP/M source packages and their notices. Resolve runtime
-   and content rights separately. Establish reproducible baseline builds.
+   and content rights separately. Six initial source candidates are imported;
+   establish their reproducible baseline builds next.
 4. Measure memory, terminal assumptions, dependencies, and CPU requirements.
 5. Recommend implementation approaches and concrete initial scopes for review.
 
@@ -28,8 +31,8 @@ measured estimates or delivery promises.
 ## Proposed first implementation batch
 
 Robots, Reversi, and ADVENT are proposed pilots. Investigate ADVENT early even
-if another pilot becomes playable first. Obtain maintainer agreement before
-imports or substantial implementation. Preserve approved edition choices
+if another pilot becomes playable first. Source imports are now authorized;
+agree on adaptation scope before substantial implementation. Preserve edition choices
 when selecting a later or different implementation.
 
 Add only the helpers demonstrated necessary by these games. Keep existing

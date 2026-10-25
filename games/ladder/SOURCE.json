@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "game": "ladder",
+  "edition": "mecparts Turbo Pascal reconstruction 1.33TP",
+  "status": "unmodified-source-import",
+  "license_summary": "GPL-2.0-or-later source grant; upstream repository supplies GPL v3 LICENSE",
+  "sources": {
+    "ladder": {
+      "repository": "https://github.com/mecparts/Ladder",
+      "commit": "d85f99c4f1d7ef6851431284f2497cb9b2e077af",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/src/ladactor.pas",
+      "source": "ladder",
+      "source_path": "src/ladactor.pas",
+      "git_blob": "02b09523c79c29526902b9b58f325944688faefb",
+      "size_bytes": 11171,
+      "sha256": "f0df528dc83e745139766ca173e1db20ff51ac2b37a3c2d988fc626116541dfc"
+    },
+    {
+      "path": "upstream/src/ladconst.pas",
+      "source": "ladder",
+      "source_path": "src/ladconst.pas",
+      "git_blob": "9ae0a082a9a86c6b23ed6e7973e611dccf5ebd15",
+      "size_bytes": 893,
+      "sha256": "ac08661f100dcaabf69481eff1c850423a75d15311782d04f6163165678dcf03"
+    },
+    {
+      "path": "upstream/src/ladder.pas",
+      "source": "ladder",
+      "source_path": "src/ladder.pas",
+      "git_blob": "9e247878407fc42dc8504c8e70a19377ffd936ca",
+      "size_bytes": 1052,
+      "sha256": "531f4865842b23802ebc3b5abfbbaf5d1a6663fd0561e564393458c5ec588667"
+    },
+    {
+      "path": "upstream/src/ladfield.pas",
+      "source": "ladder",
+      "source_path": "src/ladfield.pas",
+      "git_blob": "ecce812877583b412242fc254baa3694dfc00f00",
+      "size_bytes": 2287,
+      "sha256": "2d517ada780bccddcfcb8ff0f066caa209c0f2e259e315c823d1ec315716a143"
+    },
+    {
+      "path": "upstream/src/ladicons.pas",
+      "source": "ladder",
+      "source_path": "src/ladicons.pas",
+      "git_blob": "5f93e04c71acfff1022f06c38e7b340a0971507d",
+      "size_bytes": 15496,
+      "sha256": "1df694c465e3e1b1d7b840d43aed172be703301ecd7a78c6f9f09f2ceeaa481c"
+    },
+    {
+      "path": "upstream/src/ladmain.pas",
+      "source": "ladder",
+      "source_path": "src/ladmain.pas",
+      "git_blob": "22ba7dee230dd4dc69196d4f99204ac4eb6a82ff",
+      "size_bytes": 6716,
+      "sha256": "e7b01484b6d89d4a5470640e29ce50d27a9d6db31ddcd91f7db81f3480683bbd"
+    },
+    {
+      "path": "upstream/src/ladprocs.pas",
+      "source": "ladder",
+      "source_path": "src/ladprocs.pas",
+      "git_blob": "96923070b810af982434e1ba3005c587dfda7a3f",
+      "size_bytes": 11628,
+      "sha256": "df0f3f670c74f65836aa82bd04006acc25b8fcf69139146628e3771843945bb3"
+    },
+    {
+      "path": "upstream/src/ladtype.pas",
+      "source": "ladder",
+      "source_path": "src/ladtype.pas",
+      "git_blob": "61778e840f459158df6a2ea9bccea7954227f24d",
+      "size_bytes": 2531,
+      "sha256": "d89ef305c64ef65ecb55749f0517789ad976113daa0d63cc3875c97c3e1c0a2f"
+    },
+    {
+      "path": "upstream/src/ladutils.pas",
+      "source": "ladder",
+      "source_path": "src/ladutils.pas",
+      "git_blob": "48e32a653a3802a83674e5dccb54827a999b4ea6",
+      "size_bytes": 405,
+      "sha256": "8b922703a1b8cfcab96eb9c9b3cac078464cefcfe42928a819cc1d72a01a948b"
+    },
+    {
+      "path": "upstream/src/ladvar.pas",
+      "source": "ladder",
+      "source_path": "src/ladvar.pas",
+      "git_blob": "bf329b452a4e90f47070e5fc7879ed06dd7995e4",
+      "size_bytes": 859,
+      "sha256": "ddcefb5d38fc2473f79e66f61f8676c4a509ceb26f8a13c1290954cea3d66120"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source": "ladder",
+      "source_path": "LICENSE",
+      "git_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size_bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "ladder",
+      "source_path": "README.md",
+      "git_blob": "a5611a96e089d29197c302d8359440abfc288194",
+      "size_bytes": 3118,
+      "sha256": "a82dad9cf0abbe50c688847644b48e1e6b5628b6f312514c0c597a51f0b30aed"
+    }
+  ]
+}

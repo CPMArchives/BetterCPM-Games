@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "game": "robots",
+  "edition": "Miguel Garcia 1.01, with acn VT100 clear-screen change",
+  "status": "unmodified-source-import",
+  "license_summary": "GPL-2.0-or-later game; bundled MESCC runtime headers GPL-3.0",
+  "sources": {
+    "vt100": {
+      "repository": "https://git.imzadi.de/acn/vt100-games",
+      "commit": "12e2e2c26351022b3aea03c1fc4184398e7770e3",
+      "retrieved": "2026-10-25"
+    },
+    "ftm": {
+      "repository": "https://github.com/MiguelVis/ftm",
+      "commit": "9971bb8b0ce16c7ffe581579dc69702a068e4261",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/robots.c",
+      "source": "vt100",
+      "source_path": "Robots/robots.c",
+      "git_blob": "6a95aed0c997474f5d55e6c2daa4f39252a576f6",
+      "size_bytes": 15132,
+      "sha256": "fbf782845f2567c7944b585db8f4bc1d459c798f99edf7598c4284a544ad1330"
+    },
+    {
+      "path": "upstream/robots.txt",
+      "source": "vt100",
+      "source_path": "Robots/robots.txt",
+      "git_blob": "91cc93e05940afded45b9ac172830e924114f1a0",
+      "size_bytes": 1539,
+      "sha256": "830927206ed9a38020a4d2c205613022ed5aa596dcdbee96f4948f10866aa0b6"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "vt100",
+      "source_path": "Robots/README.md",
+      "git_blob": "dc6d6a3d8f4de62e40641e71e2cad50034b0def1",
+      "size_bytes": 1423,
+      "sha256": "74c81a4059635f79982a806082ccab055e41b05f749b5e17b5ce2f5374d000e9"
+    },
+    {
+      "path": "upstream/copying.txt",
+      "source": "vt100",
+      "source_path": "Robots/copying.txt",
+      "git_blob": "a43ea2126fb6b114bff5f8e003ee118e045dacf1",
+      "size_bytes": 17982,
+      "sha256": "91df39d1816bfb17a4dda2d3d2c83b1f6f2d38d53e53e41e8f97ad5ac46a0cad"
+    },
+    {
+      "path": "upstream/mescc/conio.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/conio.h",
+      "git_blob": "895a68346ea1a8bb63dc0619ef2f165707ec24d7",
+      "size_bytes": 4020,
+      "sha256": "477dd75e40730a1e02e06fcc3cf90df2422c3e3085b401862eb92c6e2031797e"
+    },
+    {
+      "path": "upstream/mescc/ctype.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/ctype.h",
+      "git_blob": "bad2be9f4174fe7e86e788aea64643b1a5e000be",
+      "size_bytes": 2696,
+      "sha256": "76732d6518a1c76fc046e879b38f9819ab8d82f2062808f60652ba536b7ff4fb"
+    },
+    {
+      "path": "upstream/mescc/mescc.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/mescc.h",
+      "git_blob": "d8263749a5059018f55c5c15203d54e1975b79ec",
+      "size_bytes": 10485,
+      "sha256": "e7051336cad0100e4137199f36b63a8e794152db3f3a3ad8dc3de7aa32b92695"
+    },
+    {
+      "path": "upstream/mescc/printf.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/printf.h",
+      "git_blob": "60e9117f09be160f4ac962f20236b38fbe4a06e5",
+      "size_bytes": 1524,
+      "sha256": "30ff5ab4656dd546dfde1c7d1cbd303a23e3d55bff051a67e238943a04435294"
+    },
+    {
+      "path": "upstream/mescc/string.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/string.h",
+      "git_blob": "0cca9028e2ca5b4815584b1fae4ad606bda3af00",
+      "size_bytes": 3355,
+      "sha256": "33b01441d5aa74871a4acd51bd02864a500abed7d1671765f48b21c6cc613596"
+    },
+    {
+      "path": "upstream/mescc/xprintf.h",
+      "source": "vt100",
+      "source_path": "Robots/mescc/xprintf.h",
+      "git_blob": "2a22a4b61907929ba06022395e4c834d60808155",
+      "size_bytes": 5552,
+      "sha256": "4e51597ec3b4455db07b568c3e1bc5e1c14fcc1f9870e626e96516e766e15729"
+    },
+    {
+      "path": "upstream/COPYING.GPL3",
+      "source": "ftm",
+      "source_path": "gpl-3.0.txt",
+      "git_blob": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "size_bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "game": "cpmtris",
+  "edition": "Russell Marks v1.1 distribution",
+  "status": "unmodified-source-import",
+  "license_summary": "GPL-2.0-or-later",
+  "sources": {
+    "zcn": {
+      "repository": "https://github.com/jamesots/zcn",
+      "commit": "db3544f1363e209d40da24a838eb28b66319edc8",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/cpmtris.z",
+      "source": "zcn",
+      "source_path": "cpmtris/cpmtris.z",
+      "git_blob": "1fc7358f23fb3bccd1128504aaad5a254c7422bf",
+      "size_bytes": 17170,
+      "sha256": "0814bb0c4f69fc3c0556a356848a7be8233559fc87fe7241b14ca77ad9ebb52d"
+    },
+    {
+      "path": "upstream/rand.z",
+      "source": "zcn",
+      "source_path": "cpmtris/rand.z",
+      "git_blob": "3e3ce90d9b204b9df034f496469b2e4d9de41e54",
+      "size_bytes": 1891,
+      "sha256": "a974d679d28ffc6ffb4e409bc15f9c59d99d1100326245cfd02c406f6f4160b4"
+    },
+    {
+      "path": "upstream/conio.z",
+      "source": "zcn",
+      "source_path": "cpmtris/conio.z",
+      "git_blob": "e60300c25583858adaf83c07d46f6ce88c8c8d84",
+      "size_bytes": 790,
+      "sha256": "0b3d846ebd045af2bae27ef18ba7b3fa7b71f69b02d4b9dd6486f50818a0b331"
+    },
+    {
+      "path": "upstream/Makefile",
+      "source": "zcn",
+      "source_path": "cpmtris/Makefile",
+      "git_blob": "befd575c5209b559fc044cab54d080230f99b96e",
+      "size_bytes": 204,
+      "sha256": "66229cc5755ce77e01059e9ee6b8992e852ccf3544f790aac24971203c28b253"
+    },
+    {
+      "path": "upstream/README",
+      "source": "zcn",
+      "source_path": "cpmtris/README",
+      "git_blob": "8ae8fa8051e3195731096b9f63b4066ea617df43",
+      "size_bytes": 3657,
+      "sha256": "5a6c2f1059333b3565c9ce2f88a1a20572d6b43eb34073829075b4b9759b0c04"
+    },
+    {
+      "path": "upstream/COPYING",
+      "source": "zcn",
+      "source_path": "COPYING",
+      "git_blob": "e77696ae8ddfea61c8da89bcfa4494707d67cad2",
+      "size_bytes": 17976,
+      "sha256": "1b2a567f289f66a143c56353e7b3d4fa5862514a5e3c5cfdf8b02ee5e5aaa953"
+    }
+  ]
+}

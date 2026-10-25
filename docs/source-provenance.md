@@ -27,5 +27,8 @@ project until the implementation is approved. A new implementation may be an
 option, but writing new code does not establish rights to copied text, levels,
 or other content. Document the intended sources and boundaries before work.
 
-Source discovery and inspection are authorized. Third-party imports and
-substantial implementation await maintainer review of the selected approach.
+The maintainer has authorized source discovery and import. Preserve selected
+sources with their licenses/provenance as reference snapshots, distinguishing
+intake from a final implementation or release decision. Substantial adaptation
+continues to follow the selected game's agreed scope. See the
+[first intake](source-intake.md) and [license scope](../LICENSES.md).

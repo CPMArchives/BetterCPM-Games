@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "game": "hangman",
+  "edition": "sblendorio CP/M C implementation",
+  "status": "unmodified-source-import",
+  "license_summary": "GPL v2 repository license; original LICENSE retained",
+  "sources": {
+    "hangman": {
+      "repository": "https://github.com/sblendorio/hangman-cpm",
+      "commit": "cdc50ae43b0116ab29550cd511ad46f246dc4ea9",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/hangman.c",
+      "source": "hangman",
+      "source_path": "source/hangman.c",
+      "git_blob": "42c17989925f1b93a0e61cd4f42b430dac140049",
+      "size_bytes": 5068,
+      "sha256": "0aadf33fcfcb7b0e921455c86925dea16d018741d98f1ca62d59e0fda14d683e"
+    },
+    {
+      "path": "upstream/xterm.c",
+      "source": "hangman",
+      "source_path": "source/xterm.c",
+      "git_blob": "dc3c03c3df8882d341bbdecad09d6ed558ea8715",
+      "size_bytes": 9212,
+      "sha256": "948cb6a5ca86b5d24b1de255214376fc16d39d6bbe9cbd2d74d8458fafc30f8b"
+    },
+    {
+      "path": "upstream/xterm.h",
+      "source": "hangman",
+      "source_path": "source/xterm.h",
+      "git_blob": "416ac832786a499ad83ee9be149d156db1d6284b",
+      "size_bytes": 1806,
+      "sha256": "7c49a9c4f50e9898acc3692418f21cece96c9e6c04998d3e679d536b046aa3a7"
+    },
+    {
+      "path": "upstream/words.txt",
+      "source": "hangman",
+      "source_path": "source/words.txt",
+      "git_blob": "9ac1407b8b9e8b2d65e287987972b7d5c4ae3d06",
+      "size_bytes": 981,
+      "sha256": "71e37d1447109aa8aa948c425a281016034fa6c24d7c89cb22aaaa9f7b336378"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source": "hangman",
+      "source_path": "LICENSE",
+      "git_blob": "8cdb8451d9b90c1d4000c6f22eb86471a4568be6",
+      "size_bytes": 18047,
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "hangman",
+      "source_path": "README.md",
+      "git_blob": "f9d3f9ec8ce5ee697928e116e52afe00cde751b3",
+      "size_bytes": 3775,
+      "sha256": "89de558893dd9c403c438566d91e533c892549d01e7ec8dd5c8f75dbab939ffc"
+    }
+  ]
+}

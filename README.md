@@ -14,11 +14,12 @@ extensions. This project is independent of the
 
 ## Project status
 
-Repository foundation and source investigation. No games or playable releases
-are included yet. ADVENT's original 350-point edition is an approved editorial
-choice; the other games, implementation choices, and release lineup remain
-provisional. Creating this repository does not approve third-party imports or
-substantial game implementation.
+Source investigation and intake. Unmodified source for Robots, Snake,
+Hangman, Ladder, Cpmtris, and Find That Mine is included with upstream notices
+and pinned provenance. See the [source intake](docs/source-intake.md) and
+[game sources](games/README.md). No playable BetterCP/M Games releases have
+been built yet. ADVENT's original 350-point edition is approved; other
+editions and the release lineup remain provisional.
 
 ## Start here
 
@@ -28,6 +29,7 @@ substantial game implementation.
 - [Interface conventions](docs/interface-conventions.md)
 - [Version and revision tracking](docs/versioning.md)
 - [Source provenance and licensing](docs/source-provenance.md)
+- [Source intake findings](docs/source-intake.md)
 - [Development roadmap](docs/roadmap.md)
 - [Build conventions](tools/README.md)
 - [Contributing](CONTRIBUTING.md)
@@ -39,6 +41,6 @@ build a game, not whether it deserves inclusion.
 ## Licensing
 
 Original material in this initial repository is available under the
-[MIT license](LICENSE). Future third-party components retain their own
-licenses and notices; this license does not relicense historical games,
+[MIT license](LICENSE). Imported third-party components retain their own
+licenses and notices, detailed in [LICENSES.md](LICENSES.md); MIT does not relicense historical games,
 text, level sets, dictionaries, or compiler runtimes.

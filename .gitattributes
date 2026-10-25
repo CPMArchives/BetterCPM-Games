@@ -1,0 +1,2 @@
+# Preserve imported CRLF/LF line endings and CP/M EOF markers exactly.
+games/*/upstream/** -text
