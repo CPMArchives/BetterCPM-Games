@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "game": "advent",
+  "edition": "Gillogly / Berkeley 350-point Adventure C lineage in BSDGames",
+  "status": "unmodified-source-import",
+  "license_summary": "Retain every per-file notice and the distribution COPYING. Most files use BSD three-clause terms; extern.h retains Christos Zoulas's four-clause notice, including its acknowledgment requirement. This snapshot is not exclusively BSD-3-Clause. It is separate from the unresolved Goetz A02 implementation.",
+  "sources": {
+    "upstream": {
+      "repository": "https://github.com/vattam/BSDGames",
+      "commit": "56b8944332186891cd5c0094bd3991e3c5f5a799",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/adventure/Makefile.bsd",
+      "source": "upstream",
+      "source_path": "adventure/Makefile.bsd",
+      "git_blob": "6530c3ce36b474fc3992709b0b75b5f1d7df5453",
+      "size_bytes": 455,
+      "sha256": "dd3b8a367ea5bdd0102310115d05db971b961a5995e94833c27c271c126c93ee"
+    },
+    {
+      "path": "upstream/adventure/Makefrag",
+      "source": "upstream",
+      "source_path": "adventure/Makefrag",
+      "git_blob": "64bc7e250d1414158cd747321482c29abae31e35",
+      "size_bytes": 1884,
+      "sha256": "d2bf7a8c48b5c3d951abbdda36822da591a9dff7cb035b0e865750854e9bcf95"
+    },
+    {
+      "path": "upstream/adventure/adventure.6",
+      "source": "upstream",
+      "source_path": "adventure/adventure.6",
+      "git_blob": "cc8c7a858070672b2e446972c6e1b803ae5d2ad0",
+      "size_bytes": 2459,
+      "sha256": "773d208c9e0c4d695e71371d05b3ae41eca80a1389fbf28fa319553907afcf04"
+    },
+    {
+      "path": "upstream/adventure/crc.c",
+      "source": "upstream",
+      "source_path": "adventure/crc.c",
+      "git_blob": "c6ee5f1205a8626596600382f687c4081f87b338",
+      "size_bytes": 6015,
+      "sha256": "2264d2e2b6982e1eb5109358d5bade3333261ba47fc804643af838db0f97b96b"
+    },
+    {
+      "path": "upstream/adventure/done.c",
+      "source": "upstream",
+      "source_path": "adventure/done.c",
+      "git_blob": "54e5fa6c8d710d2da95eabb37a3822b16d0fb27f",
+      "size_bytes": 4442,
+      "sha256": "2d40450b085ea109565d202b3ccdbe337471aa7d2d7caaf18d31629e2731ec0a"
+    },
+    {
+      "path": "upstream/adventure/extern.h",
+      "source": "upstream",
+      "source_path": "adventure/extern.h",
+      "git_blob": "b9950b59fc1f32ca19ed25c6f2ae6bc0644ae106",
+      "size_bytes": 3584,
+      "sha256": "078ddf48073c11dcb21a47ba78f70b1d3d56547255945a5a267942c4beb80d9c"
+    },
+    {
+      "path": "upstream/adventure/glorkz",
+      "source": "upstream",
+      "source_path": "adventure/glorkz",
+      "git_blob": "a00d400f00c9f136920e81a98c677c7e4608baac",
+      "size_bytes": 56375,
+      "sha256": "b564d874cf9edd190417268a9bf31dc720d3a60de0fe513f8df380b6bbbfec3e"
+    },
+    {
+      "path": "upstream/adventure/hdr.h",
+      "source": "upstream",
+      "source_path": "adventure/hdr.h",
+      "git_blob": "3843831c64f311e6f6525ada6f2348561f2f97f3",
+      "size_bytes": 6322,
+      "sha256": "be345b529dcf8a43c66b4e5ef71a8ad450026e812296c8f07e2caa1ac1ea02c3"
+    },
+    {
+      "path": "upstream/adventure/init.c",
+      "source": "upstream",
+      "source_path": "adventure/init.c",
+      "git_blob": "1816fc1ab8177733a9c1c27e1035f11eeeb88d8d",
+      "size_bytes": 9444,
+      "sha256": "c6c8266b00cb4fb2c4a108ab394d190aef2e4df3717825e2e53f66ad4ee63625"
+    },
+    {
+      "path": "upstream/adventure/io.c",
+      "source": "upstream",
+      "source_path": "adventure/io.c",
+      "git_blob": "33ae2fe3c2f0175728ffb956a4a97f501a7ed95f",
+      "size_bytes": 15147,
+      "sha256": "4a9ac5e85a4ee956f2d2031eb26559e83c5fb02fcc6230b7a0df457f01b623d4"
+    },
+    {
+      "path": "upstream/adventure/main.c",
+      "source": "upstream",
+      "source_path": "adventure/main.c",
+      "git_blob": "3e1cd2df55455de8dfc239b3e36404721a7e9be3",
+      "size_bytes": 16844,
+      "sha256": "1dff8d54f434d8c1f3763714234143ab3cf5879133583961a84ea4feddc78e6b"
+    },
+    {
+      "path": "upstream/adventure/save.c",
+      "source": "upstream",
+      "source_path": "adventure/save.c",
+      "git_blob": "2f0e355bb80bd544c9c1d910c162df02bb01e83b",
+      "size_bytes": 5659,
+      "sha256": "8b3ba5764cf633c861773e6cfbd4a1f5e2e5d9041af1259033c4aa30b51726ca"
+    },
+    {
+      "path": "upstream/adventure/setup.c",
+      "source": "upstream",
+      "source_path": "adventure/setup.c",
+      "git_blob": "ca5a24c59bdb68174608d3861f897009cb14d594",
+      "size_bytes": 4179,
+      "sha256": "d493d263dde13142fcf2b310bdf5c52727bf7b838da6352581870149b9a8f3fe"
+    },
+    {
+      "path": "upstream/adventure/subr.c",
+      "source": "upstream",
+      "source_path": "adventure/subr.c",
+      "git_blob": "297238b01430992ed54bfb94ab0558fc08c45a9b",
+      "size_bytes": 21177,
+      "sha256": "114199ccda4e4aa8ff3861a9931344092380d19dedd308ebe3b9eca28245565a"
+    },
+    {
+      "path": "upstream/adventure/vocab.c",
+      "source": "upstream",
+      "source_path": "adventure/vocab.c",
+      "git_blob": "78939d3addc21b7991d53d1356407fd810d96cc9",
+      "size_bytes": 5979,
+      "sha256": "9cc82a1f6dd18fac2dfb4db320d4beed68cd692b6546efd3974125590b9afdc8"
+    },
+    {
+      "path": "upstream/adventure/wizard.c",
+      "source": "upstream",
+      "source_path": "adventure/wizard.c",
+      "git_blob": "5e206056d113d89d7a126137e8a799b57af69bcc",
+      "size_bytes": 4270,
+      "sha256": "c51f726154df62ffef887c5c062d974b4cd7718657500da642248d96de92bb55"
+    },
+    {
+      "path": "upstream/COPYING",
+      "source": "upstream",
+      "source_path": "COPYING",
+      "git_blob": "8e108fa3d275460c392979479ad14340a9c270e7",
+      "size_bytes": 25145,
+      "sha256": "be43f81c20961702327c10e9bd5f5a9a2b1cceea850402ea562a9a76abcfa4bf"
+    }
+  ]
+}

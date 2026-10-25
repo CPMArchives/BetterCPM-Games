@@ -1,5 +1,9 @@
 # First source intake — 2026-10-25
 
+This records the first six imports. See the
+[preferred-game follow-up](priority-source-assessment.md) for four further
+source imports and the current flexible-release planning decision.
+
 The maintainer has authorized source discovery and import. This batch
 preserves candidates for examination and adaptation; it does not finalize
 game editions, release membership, or BetterCP/M game revisions.

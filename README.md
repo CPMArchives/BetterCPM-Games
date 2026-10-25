@@ -15,8 +15,11 @@ extensions. This project is independent of the
 ## Project status
 
 Source investigation and intake. Unmodified source for Robots, Snake,
-Hangman, Ladder, Cpmtris, and Find That Mine is included with upstream notices
-and pinned provenance. See the [source intake](docs/source-intake.md) and
+Hangman, Ladder, Cpmtris, Find That Mine, ADVENT 350, Hammurabi, Mastermind,
+and Super Star Trek is included with upstream notices and pinned provenance.
+The latter four require source porting or translation for standalone CP/M.
+See the [preferred-game assessment](docs/priority-source-assessment.md),
+[source intake](docs/source-intake.md) and
 [game sources](games/README.md). No playable BetterCP/M Games releases have
 been built yet. ADVENT's original 350-point edition is approved; other
 editions and the release lineup remain provisional.
@@ -30,6 +33,7 @@ editions and the release lineup remain provisional.
 - [Version and revision tracking](docs/versioning.md)
 - [Source provenance and licensing](docs/source-provenance.md)
 - [Source intake findings](docs/source-intake.md)
+- [Preferred games and reverse-engineering options](docs/priority-source-assessment.md)
 - [Development roadmap](docs/roadmap.md)
 - [Build conventions](tools/README.md)
 - [Contributing](CONTRIBUTING.md)

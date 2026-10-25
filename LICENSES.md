@@ -14,6 +14,8 @@ Those files retain their upstream licenses, authorship, and source notices.
 | Cpmtris | GPL v2 or later, as stated in its README |
 | Find That Mine and KS header | GPL v3 or later, as stated in their source |
 | Find That Mine MESCC runtime headers | GPL v3 |
+| ADVENT 350 source snapshot | Per-file BSD terms: principally three-clause; extern.h retains a four-clause acknowledgment requirement |
+| Hammurabi, Mastermind II, Super Star Trek snapshots | Upstream Unlicense, historical credits and normalized transcription provenance retained |
 
 Each game's README and SOURCE.json identify its exact imported files and
 license evidence. No compiler executables or historical game binaries are

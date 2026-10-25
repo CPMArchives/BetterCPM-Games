@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "game": "startrek",
+  "edition": "1978 Super Star Trek BASIC lineage, normalized transcription",
+  "status": "unmodified-source-import",
+  "license_summary": "Upstream repository Unlicense retained. Preserve source credits to Mike Mayfield, David Ahl, Bob Leedom, and John Gorders. The source records a 1978 Microsoft 8K BASIC conversion; the present transcription was normalized for Vintage BASIC.",
+  "sources": {
+    "upstream": {
+      "repository": "https://github.com/coding-horror/basic-computer-games",
+      "commit": "5301155192d91d74d337899cecc59dbda59c4c17",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/84_Super_Star_Trek/superstartrek.bas",
+      "source": "upstream",
+      "source_path": "84_Super_Star_Trek/superstartrek.bas",
+      "git_blob": "efd74cb0daa9b63c606c616da99d0b4c7c16a6ea",
+      "size_bytes": 20467,
+      "sha256": "a80bf9f6e4a32888e89809145c778d16ebcde5feaa24b159d922edd7f5b9b94a"
+    },
+    {
+      "path": "upstream/84_Super_Star_Trek/superstartrekins.bas",
+      "source": "upstream",
+      "source_path": "84_Super_Star_Trek/superstartrekins.bas",
+      "git_blob": "b3aa1daa685377eac786497afdcd99de5c77736d",
+      "size_bytes": 6519,
+      "sha256": "b6b6d421617d4e8a61a41179e5dd0c8fd0c6725f20e5a91eecdd7aac8be69f05"
+    },
+    {
+      "path": "upstream/84_Super_Star_Trek/instructions.txt",
+      "source": "upstream",
+      "source_path": "84_Super_Star_Trek/instructions.txt",
+      "git_blob": "59124d9d6ed3cde8c775e4594e48fb1cdf937889",
+      "size_bytes": 4656,
+      "sha256": "d3fd685f4a31c65cc2f192ef1bdec0b487bfc837d775661239315bec9bb04751"
+    },
+    {
+      "path": "upstream/84_Super_Star_Trek/README.md",
+      "source": "upstream",
+      "source_path": "84_Super_Star_Trek/README.md",
+      "git_blob": "32f827c675f1510a1e36e1e07189901a77b00ad8",
+      "size_bytes": 9037,
+      "sha256": "1269aac596c9eb1613846e9b079386d764854b6cf77dde6e066e4ddf9d38f0ff"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source": "upstream",
+      "source_path": "LICENSE",
+      "git_blob": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657",
+      "size_bytes": 1211,
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "upstream",
+      "source_path": "README.md",
+      "git_blob": "3b54d4471dd8a331a67b943cda52bbf3aaac3955",
+      "size_bytes": 17484,
+      "sha256": "a1002f440f2a363afb08cfd6b18283d36d6ef1af5ec8818c47abc89e1195c41a"
+    }
+  ]
+}

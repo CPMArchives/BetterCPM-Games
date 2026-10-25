@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "game": "mastermind",
+  "edition": "Steve North / Creative Computing Mastermind II BASIC listing, normalized transcription",
+  "status": "unmodified-source-import",
+  "license_summary": "Upstream repository Unlicense retained. The listing credits Steve North and Creative Computing. The upstream README documents Vintage BASIC normalization; preserve this provenance instead of calling it an original CP/M source.",
+  "sources": {
+    "upstream": {
+      "repository": "https://github.com/coding-horror/basic-computer-games",
+      "commit": "5301155192d91d74d337899cecc59dbda59c4c17",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/60_Mastermind/mastermind.bas",
+      "source": "upstream",
+      "source_path": "60_Mastermind/mastermind.bas",
+      "git_blob": "e6d548935d809c118c88f8f8cf06b9c59fbf4764",
+      "size_bytes": 5203,
+      "sha256": "9eab2349decb942b66f7831f4f667a05653ca77736366c8ea6b9706ce99383e3"
+    },
+    {
+      "path": "upstream/60_Mastermind/README.md",
+      "source": "upstream",
+      "source_path": "60_Mastermind/README.md",
+      "git_blob": "05383f1065df0f1fc8c717ddc85189770fe07e04",
+      "size_bytes": 11780,
+      "sha256": "08e4bcd78621e70717cc530f627be456e4100f3523ff0943ce690871e3d0298f"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source": "upstream",
+      "source_path": "LICENSE",
+      "git_blob": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657",
+      "size_bytes": 1211,
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "upstream",
+      "source_path": "README.md",
+      "git_blob": "3b54d4471dd8a331a67b943cda52bbf3aaac3955",
+      "size_bytes": 17484,
+      "sha256": "a1002f440f2a363afb08cfd6b18283d36d6ef1af5ec8818c47abc89e1195c41a"
+    }
+  ]
+}

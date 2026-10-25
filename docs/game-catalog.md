@@ -14,19 +14,28 @@ Source intake update: unchanged candidate source is now tracked for
 [intake report](source-intake.md) for pinned provenance, license distinctions,
 and missing runtime dependencies. Import does not finalize the release lineup.
 
+Follow-up: source is also imported for [ADVENT 350](../games/advent/README.md),
+[Hammurabi](../games/hammurabi/README.md),
+[Mastermind](../games/mastermind/README.md), and
+[Super Star Trek](../games/startrek/README.md). These require porting or
+translation, rather than being ready-made CP/M games. See the
+[preferred-game assessment](priority-source-assessment.md) for all seven
+remaining source searches and reverse-engineering options. Release order is
+flexible; games may wait for suitable sources without losing editorial merit.
+
 | Category | Candidate | Edition or rules to investigate | Source finding / next step |
 | --- | --- | --- | --- |
 | Strategy and board | Chess | Compare worthwhile historical engines | CP/M Sargon assembly inspected; restrictive notice remains. Resolve permissions and compare alternatives. |
 | Strategy and board | Checkers | Select rules and opponent strength | No adoption-ready source verified. |
-| Strategy and board | Reversi | Standard 8x8 game with computer opponent | Historical Othello binary listed; reusable source unresolved. |
+| Strategy and board | Reversi | Standard 8x8 game with computer opponent | CP/M binary/BASIC leads; no adoption-ready source. A fresh bounded-search opponent is a credible fallback. |
 | Strategy and board | Gomoku | Decide board size and overline rules | No adoption-ready source verified. |
 | Cards and dice | Solitaire | Select a specific patience game | No adoption-ready source verified; generic title is insufficient. |
 | Cards and dice | Blackjack | Specify dealer, split, double, and payout rules | BLACKJAC.ARC listed in Walnut Creek; contents and permissions unverified. |
 | Cards and dice | Poker | Select variant and meaningful computer opposition | No adoption-ready source verified. |
-| Cards and dice | Yahtzee | Verify scoring and bonus rules | YAHTZE.ARC listed; source and permissions unverified. |
-| Adventure and exploration | ADVENT | Original 350-point edition, approved | Goetz A02 has FORTRAN source and external data; compare other faithful implementations. |
+| Cards and dice | Yahtzee | Verify scoring and bonus rules | Actual tokenized YAHTZE.BAS obtained, 398 structurally verified line records; recover matching-dialect listing, establish permissions. |
+| Adventure and exploration | ADVENT | Original 350-point edition, approved | Licensed Gillogly/Berkeley C baseline imported. CP/M A02 FORTRAN remains a separate source/permissions lead. |
 | Adventure and exploration | Wumpus | Compare classic 20-room game with later variants | Historical BASIC leads; select precise behavior and permitted source. |
-| Adventure and exploration | Star Trek | Compare Super Star Trek and Visual Star Trek | VTREKSRC.ARC explicitly listed as CP/M C source; contents and rights unverified. |
+| Adventure and exploration | Star Trek | Compare Super Star Trek and Visual Star Trek | Super Star Trek BASIC source imported; CP/M Visual Star Trek archive still unexamined. |
 | Adventure and exploration | Dungeon crawler | Compare Rogue and other worthwhile crawlers | Goodenough CP/M Rogue 1.7 located; source and rights unresolved. |
 | Arcade and action | Tetris | Select rotation, randomization, scoring, and speed behavior | Cpmtris source imported: original Z80 distribution, GPL v2-or-later, configurable terminal/speed. |
 | Arcade and action | Snake | Select movement, growth, collision, and speed rules | Turbo Pascal 1.2acn source imported, GPL v2-or-later. |
@@ -34,10 +43,10 @@ and missing runtime dependencies. Import does not finalize the release lineup.
 | Arcade and action | Sokoban | Select good levels and undo policy | Source inspected but not imported: readme.v2 reports copied PC screens; game-code grant unresolved. |
 | Arcade and action | Ladder | Compare reconstruction with historical game | Pascal source imported: source grant GPL v2-or-later, repository GPL v3 text. LADCONF.COM excluded. |
 | Word and logic | Hangman | Curate words and difficulty | C/XTerm source and sample words imported under repository GPL v2 license. |
-| Word and logic | Mastermind | Specify code length, alphabet, repeats, and feedback | No adoption-ready source verified. |
+| Word and logic | Mastermind | Specify code length, alphabet, repeats, and feedback | Mastermind II BASIC imported; Ward/Zolman CP/M C inspected with permissions unresolved. |
 | Word and logic | Boggle | Specify grid, dictionary, scoring, and timing | No adoption-ready source verified; dictionary licensing and storage need attention. |
 | Word and logic | Minesweeper | Select board presets and first-move policy | Find That Mine 2.1 C/KS/MESCC source imported; GPL v3 family, coordinate commands, CP437/color assumptions. |
-| Simulation and management | Hammurabi | Compare Ahl's game with richer historical management games | Historical BASIC and licensed-port leads; no chosen source. |
+| Simulation and management | Hammurabi | Compare Ahl's game with richer historical management games | Classic BASIC source imported; standalone COM translation required. |
 | Simulation and management | Lunar Lander | Choose numerical simulation or real-time action | LANDER.ARC listed; Storer's original numerical game documented separately. |
 | Simulation and management | Trading game | Compare compelling trading and progression systems | STARSHIP.ARC listed as space trading with source; hardware assumptions and rights unverified. |
 
@@ -45,19 +54,21 @@ Sokoban is retained in the handoff's original category for traceability; it
 is a turn-based spatial puzzle, not a real-time action game. Category labels
 must not determine implementation assumptions.
 
-## Provisional first release
+## Preferred editorial group; flexible release order
 
 ADVENT, Reversi, Yahtzee, Sokoban, Snake, Mastermind, Hammurabi, and Star Trek.
-This proposed eight-game selection covers all six categories. It is based on
-gameplay variety, not the relative convenience of available source. No game
-is excluded from the broader collection by this proposal.
+This eight-game group covers all six categories and remains a useful
+editorial preference, not a fixed first-release commitment. Release order
+may follow source readiness and engineering progress. No game is removed
+from consideration merely because it must wait for sources.
 
 ## Suggested opening work
 
-Investigate ADVENT's exact edition, source permissions, and reproducible build
-early. Proposed first implementation batch: Robots, Reversi, and ADVENT,
-subject to maintainer review. Robots is an additional early pilot and does not
-silently replace a game in the proposed release lineup.
+Use the source candidates now available to choose a manageable opening batch.
+Prioritize playable quality and variety, while continuing source recovery for
+the preferred games. ADVENT has a licensed C baseline but substantial CP/M
+porting work; Reversi and Yahtzee can use fresh implementations if appropriate.
+The other imports remain candidates without silently replacing preferred games.
 
 ## Evidence and limits
 

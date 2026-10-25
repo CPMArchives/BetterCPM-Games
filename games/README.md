@@ -12,6 +12,10 @@ SOURCE.json files describe provenance, dependencies, and outstanding work.
 | [Ladder](ladder/README.md) | Turbo Pascal reconstruction and all includes |
 | [Cpmtris](cpmtris/README.md) | Z80 assembly |
 | [Minesweeper](minesweeper/README.md) | Find That Mine C, KS and MESCC headers |
+| [ADVENT 350](advent/README.md) | Gillogly/Berkeley Unix C and database; CP/M port required |
+| [Hammurabi](hammurabi/README.md) | BASIC transcription; standalone translation required |
+| [Mastermind](mastermind/README.md) | Mastermind II BASIC transcription |
+| [Star Trek](startrek/README.md) | Super Star Trek BASIC and instructions |
 
 These are source candidates, not qualified binaries or a final release lineup.
 See the [catalog](../docs/game-catalog.md) for all editorial candidates and

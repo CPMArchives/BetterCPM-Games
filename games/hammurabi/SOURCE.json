@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "game": "hammurabi",
+  "edition": "Ahl / Creative Computing BASIC listing, Vintage BASIC-normalized transcription",
+  "status": "unmodified-source-import",
+  "license_summary": "Upstream repository publishes these files under the Unlicense; retain LICENSE. David Ahl also issued a public-domain declaration in June 2022. The repository README identifies Lyle Kopnicky's Vintage BASIC normalization, so this is not claimed to be an untouched 1978 typescript.",
+  "sources": {
+    "upstream": {
+      "repository": "https://github.com/coding-horror/basic-computer-games",
+      "commit": "5301155192d91d74d337899cecc59dbda59c4c17",
+      "retrieved": "2026-10-25"
+    }
+  },
+  "files": [
+    {
+      "path": "upstream/43_Hammurabi/hammurabi.bas",
+      "source": "upstream",
+      "source_path": "43_Hammurabi/hammurabi.bas",
+      "git_blob": "e41fe4fbd5fbc0dc103d20166c0f8d32e7fa9889",
+      "size_bytes": 4055,
+      "sha256": "93fea01f8b63766a83919653f798932ba33d4ca2654b70e87a54653d60c73831"
+    },
+    {
+      "path": "upstream/43_Hammurabi/README.md",
+      "source": "upstream",
+      "source_path": "43_Hammurabi/README.md",
+      "git_blob": "937044c86a56538fe5c630c016df880f317c7134",
+      "size_bytes": 1971,
+      "sha256": "32a489deccd79bfe8a0ee20e313c581628f0dc66f8acf3927f6d5ffce9e9eb7d"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "source": "upstream",
+      "source_path": "LICENSE",
+      "git_blob": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657",
+      "size_bytes": 1211,
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+    },
+    {
+      "path": "upstream/README.md",
+      "source": "upstream",
+      "source_path": "README.md",
+      "git_blob": "3b54d4471dd8a331a67b943cda52bbf3aaac3955",
+      "size_bytes": 17484,
+      "sha256": "a1002f440f2a363afb08cfd6b18283d36d6ef1af5ec8818c47abc89e1195c41a"
+    }
+  ]
+}
